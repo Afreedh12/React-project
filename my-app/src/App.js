@@ -9,11 +9,24 @@ import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
-
+import UserGreting from './components/UserGreting';
+import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
+import './appStyles.css'
+import styles from './appStyles.module.css'
+import Form from './components/Form';
 function App() {
     return (
       <div className="App">
-        <ParentComponent />
+        <Form />
+        {/* <h1 className='error'>error</h1> */}
+        {/* <h1 className={styles.success}>success</h1> */}
+        {/* <Inline /> */}
+        {/* <Stylesheet primary={true}/> */}
+        {/* <NameList /> */}
+        {/* <UserGreting /> */}
+        {/* <ParentComponent /> */}
         {/* <EventBind /> */}
         {/* <FunctionClick /> */}
         {/* <ClassClick /> */}
